@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation2</title>
+</head>
+<body>
+    <h1 id="welcomeSign">Visitor loading...</h1>
+    <p id="status">Status: Uknown</p>
+
+        <script>
+            // Set the variables
+                let firstName ="Super";
+                let lastName ="Student";
+                let fullName = firstName + lastName;
+
+            // Add pop-up
+                window.alert("Welcome " + firstName + "!");
+
+            // Change the heading
+                document.getElementById("welcomeSign").innerHTML = "Welcome " + fullName;
+
+            // Update status
+                document.getElementById("status").innerHTML = "Status: Online";
+        </script>
+</body>
+</html>
